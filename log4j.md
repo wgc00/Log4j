@@ -25,15 +25,15 @@
      
    * mybatis.xml
    
-   
-      <?xml version="1.0" encoding="UTF-8" ?>
-      <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
-      <configuration>
-          <settings>
-              <setting name="logImpl" value="LOG4J"/>
-          </settings>
-      </configuration>
-      
+
+          <?xml version="1.0" encoding="UTF-8" ?>
+          <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+          <configuration>
+              <settings>
+                  <setting name="logImpl" value="LOG4J"/>
+              </settings>
+          </configuration>
+
    
    * 还要在spring-root.xml进行一个配置
    
