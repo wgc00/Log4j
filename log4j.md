@@ -8,20 +8,20 @@
    * log4j.properties
     
       
-      # 全局配置: 只显示错误级别的日志，输出为名字为 stdou 的日志
-      # error实在有错误信息时才显示。
-      log4j.rootLogger=error, stdout
-      
-      # MyBatis 的日志配置，只输出 com.wgc.bookstore_ssm.dao 包下产生 INFO 以及以上级别的日志
-      # TRACE当程序执行时，它会输出执行过的sql信息
-      log4j.logger.com.wgc.bookstore_ssm.dao=TRACE
-      
-      # 定义名字为 stdout 的日志，将日志输出到控制台
-      # ConsoleAppender的意思的输出到控制台附加的信息
-      log4j.appender.stdout=org.apache.log4j.ConsoleAppender
-      # PatternLayout的意思是要以什么样的形式输出到控制台
-      log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
-      log4j.appender.stdout.layout.ConversionPattern=%5p [%t] - %m%n
+          # 全局配置: 只显示错误级别的日志，输出为名字为 stdou 的日志
+          # error实在有错误信息时才显示。
+          log4j.rootLogger=error, stdout
+
+          # MyBatis 的日志配置，只输出 com.wgc.bookstore_ssm.dao 包下产生 INFO 以及以上级别的日志
+          # TRACE当程序执行时，它会输出执行过的sql信息
+          log4j.logger.com.wgc.bookstore_ssm.dao=TRACE
+
+          # 定义名字为 stdout 的日志，将日志输出到控制台
+          # ConsoleAppender的意思的输出到控制台附加的信息
+          log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+          # PatternLayout的意思是要以什么样的形式输出到控制台
+          log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+          log4j.appender.stdout.layout.ConversionPattern=%5p [%t] - %m%n
      
    * mybatis.xml
    
