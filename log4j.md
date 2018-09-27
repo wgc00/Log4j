@@ -1,4 +1,4 @@
-# 一、LOG4J日志文件的框架的整理
+# 一、LOG4J日志框架的整理
     
    1、首先要添加log4j.jar包   
    [http://mvnrepository.com/artifact/log4j/log4j] 
